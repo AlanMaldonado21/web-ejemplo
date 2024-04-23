@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1A1A1A;
+}
+
+.grid-container{
+
+    /* display grid */
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: 250px 250px 150px;
+    
+    /* row-gap: 25px;
+    column-gap: 50px; */
+    gap: 25px;
+
+    margin: 20px;
+
+}
+
+.grid-item-1{
+    background-color: #F4FE80;
+    border-radius: 5px;
+    padding: 25px;
+
+    grid-column: 1/3;
+    grid-row: 1/3;
+
+   
+}
+
+.grid-item-1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    width: 80%;
+
+}
+
+.grid-item-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+
+.grid-item-1 div .tutora{
+    width: 55px;
+    position: relative;
+    bottom: 135px;
+    left: 55px;
+}
+
+.grid-item-1 div .chat-tutor{
+    width: 80%;
+}
+
+.grid-item-2{
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 25px;
+
+    grid-column: 3/4;
+    grid-row: 1/4;
+  
+}
+
+.grid-item-2 video{
+    width: 100%;
+}
+
+.grid-item-2 h2{
+    font-size: 2rem;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item-2 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item-3{
+    background-color: #FAFAFA;
+    grid-column: 1/3;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+
+.grid-item-3 h3{
+    font-size: 2rem;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item-3 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item-3 .tutor-rosa{
+    position: relative;
+    left: 90%;
+    bottom: 120px;
+    border-radius: 10%;
+
+}
+
+.grid-item-3 .tutora-verde{
+
+    position: relative;
+    border-radius: 10%;
+    left: 75px;
+    bottom: 150px;
+}
